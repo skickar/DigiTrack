@@ -4,7 +4,7 @@ In 30 seconds, this attack can learn which networks a MacOS computer has connect
 
 This is a $5 attack that does a couple things:
 
-1) Inserts a Wi-Fi backdoor onto a victim computer, allowing you to connect to the computer at any time.
+1) Inserts a Wi-Fi backdoor onto a victim computer, allowing you to capture the victim's data connection at any time when you are in Wi-Fi range.
 2) Steals a list of every network the victim has ever connected to (for tracking, classifying, and hijacking data connection)
 3) Inserts a tracking job that send the IP address and currently connected network to a Grabify link every 60 seconds.
 
