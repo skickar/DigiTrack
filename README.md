@@ -2,6 +2,8 @@
 
 In 30 seconds, this attack can learn which networks a MacOS computer has connected to before, and plant a script that tracks the current IP address and Wi-Fi network every 60 seconds.
 
+![alt text](https://i.imgur.com/Logh8XA.jpg "ESP8266 & Digispark")
+
 ## Now includes: Hardtracker - Digispark VPN buster to send the IP address and BSSID/SSID of nearby Wi-Fi networks on a MacOS computer to a Grabify tracker every 60 seconds.
 
 This is a $5 attack that does a couple things:
